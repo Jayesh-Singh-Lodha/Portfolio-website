@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faUserTie } from '@fortawesome/free-solid-svg-icons'
 
 function Navbar() {
   const [navActive, setNavActive] = useState(false);
@@ -34,8 +36,12 @@ function Navbar() {
 
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
-      <div>
+      {/* <div>
         <img src="./img/logo.svg" alt="Logoipsum" />
+      </div> */}
+      <div className="logo">
+        <FontAwesomeIcon icon={faUserTie} className="logo-icon" />
+        <h3>MyPortolio</h3>
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
@@ -69,10 +75,10 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="MyPortfolio"
+              to="mySkills"
               className="navbar--content"
             >
-              Portfolio
+              Skills
             </Link>
           </li>
           <li>
@@ -97,10 +103,10 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="testimonial"
+              to="MyPortfolio"
               className="navbar--content"
             >
-              Testimonials
+              Projects
             </Link>
           </li>
         </ul>

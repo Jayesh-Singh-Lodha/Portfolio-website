@@ -1,17 +1,33 @@
 import data from "../../data/index.json";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGears ,faCloud, faDatabase, faCode} from '@fortawesome/free-solid-svg-icons'
 
 export default function MySkills() {
+
+  const handleIcon=(icontype)=>{
+      switch(icontype){
+          case 'faGears':
+            return  <FontAwesomeIcon icon={faGears} className="skills--section--icon"/>
+          case 'faCloud':
+            return  <FontAwesomeIcon icon={faCloud} className="skills--section--icon"/>
+          case 'faDatabase':
+            return  <FontAwesomeIcon icon={faDatabase} className="skills--section--icon"/>
+          case 'faCode':
+            return  <FontAwesomeIcon icon={faCode} className="skills--section--icon"/>
+      }     
+  }
+
   return (
     <section className="skills--section" id="mySkills">
       <div className="portfolio--container">
-        <p className="section--title">My Skills</p>
-        <h2 className="skills--section--heading">My Expertise</h2>
+        <h2 className="skills--section--heading">My Skills</h2>
       </div>
       <div className="skills--section--container">
         {data?.skills?.map((item, index) => (
           <div key={index} className="skills--section--card">
             <div className="skills--section--img">
-              <img src={item.src} alt="Product Chain" />
+              {/* <img src={item.src} alt="Product Chain" /> */}
+              {handleIcon(item.iconType)}
             </div>
             <div className="skills--section--card--content">
               <h3 className="skills--section--title">{item.title}</h3>

@@ -3,48 +3,66 @@
     {
       "id": "1",
       "src": "./img/product-chain-1.png",
-      "title": "Front-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "title": "MERN Stack",
+      "iconType":"faGears",
+      "description": "Adept at MongoDB, Express.js, React.js, and Node.js. Crafting seamless web experiences is my passion."
     },
     {
       "id": "2",
       "src": "./img/tag-1.png",
-      "title": "Back-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "title": "Google Cloud",
+      "iconType":"faCloud",
+      "description": "From cloud infrastructure to cutting-edge services, I navigate the Google Cloud ecosystem with zeal."
     },
     {
       "id": "3",
       "src": "./img/feather-pen-2.png",
-      "title": "UI & UX Design",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "title": "Database",
+      "iconType":"faDatabase",
+      "description": "Skilled database developer proficient in SQL, MySQL, Firebase, and MongoDB."
     },
     {
       "id": "4",
       "src": "./img/feather-pen-1.png",
-      "title": "Webflow Development",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "title": "Programming",
+      "iconType":"faCode",
+      "description": "Versatile programmer fluent in C, C++, Java, and JavaScript. Armed with a robust understanding of Data Structures and Algorithms (DSA)"
     }
   ],
   "portfolio": [
     {
       "id": "1",
-      "src": "./img/placeholder-image.png",
-      "title": "Ahuse",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "src": "./img/burger-img.png",
+      "title": "Burger App",
+      "description": [ "Created a responsive Burger Builder app using ReactJS and Firebase."
+      ,"Features: Dynamic burger customization, user authentication, order history."
+      , "Tech: ReactJS, Firebase, responsive design."
+      , "Skills: Front-end, React components, Firebase authentication, responsive UI."
+      , "Impact: Strengthened front-end skills, real-world React application."
+      ,"Future: Planning to enhance user profiles and online ordering."],
+      "link": "View In Github",
+      "projectLink":"https://github.com/Jayesh-Singh-Lodha/Burger-app"
     },
     {
       "id": "2",
-      "src": "./img/placeholder-image-1.png",
-      "title": "App Dashboard",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "src": "./img/gym-img.png",
+      "title": "Gym Website",
+      "description": [  "Description: Built a dynamic Gym website using Pug, CSS, Node.js, and MongoDB."
+      , "Tech: Pug, CSS, Node.js, MongoDB.", "Skills: Full-stack development, backend integration, database management."
+      , "Expansion: Future plans include integrating online class booking and payments."],
+      "link": "View In Github",
+      "projectLink":"https://github.com/Jayesh-Singh-Lodha/Gym-website"
     },
     {
       "id": "3",
       "src": "./img/placeholder-image-2.png",
       "title": "Easy Rentn",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "description": [ "Created a responsive Burger Builder app using ReactJS and Firebase."
+      ,"Features: Dynamic burger customization, user authentication, order history."
+      , "Tech: ReactJS, Firebase, responsive design."
+      , "Skills: Front-end, React components, Firebase authentication, responsive UI."
+      , "Impact: Strengthened front-end skills, real-world React application."
+      ,"Future: Planning to enhance user profiles and online ordering."],
       "link": "View In Github"
     }
   ],

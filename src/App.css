@@ -184,6 +184,24 @@ h2 {
 .navbar--active-content {
   color: var(--primary);
 }
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 10px; /* Adjust as needed */
+  width: 100px;
+}
+
+.logo-icon {
+  font-size: 40px; /* Adjust the size as needed */
+  color: #333; /* Adjust the color as needed */
+  /* Add any other styles you want for your logo */
+}
+.logo h3 {
+  color: var(--primary);
+}
+
 /* Navbar Styler Ends */
 
 /* Hero Section Style */
@@ -231,8 +249,7 @@ h2 {
   display: flex;
 }
 .hero--section--img > img {
-  width: 100%;
-  height: 100%;
+  height: 500px;
 }
 /* Hero Section Style Ends */
 
@@ -285,6 +302,20 @@ h2 {
   background: #fff;
   box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
 }
+.skills--section--img {
+  display: flex;
+  padding: 13.3px;
+  justify-content: center;
+  align-items: center;
+  gap: 13.3px;
+  border-radius: 10.6px;
+  background: #fff;
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
+}
+.skills--section--icon {
+  font-size: 40px;
+  color: var(--primary);
+}
 .skills--section--card--content {
   display: flex;
   flex-direction: column;
@@ -319,6 +350,10 @@ h2 {
   width: 100%;
   height: 100%;
 }
+
+.about--section p{
+  font-size: 20px;
+}
 /* About Us Ends */
 
 /* My Portfolio Starts */
@@ -343,17 +378,21 @@ h2 {
 }
 .portfolio--section--container {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   gap: 42.6px;
   width: 100%;
 }
 .portfolio--section--img {
-  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
   width: 100%;
 }
 .portfolio--section--img > img {
   width: 100%;
+  height: auto; /* Maintain the aspect ratio of the original image */
+  object-fit: cover;
+  border-radius: 10px;
 }
 .portfolio--section--card {
   display: flex;
@@ -391,49 +430,7 @@ h2 {
 }
 /* Portfolio Ends */
 
-/* Testimonial */
-.testimonial--section {
-  display: flex;
-  padding: 112px 84.3px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 80px;
-  background-color: var(--bg-shade);
-}
-.sections--heading {
-  color: var(--heading-color);
-}
-.testimonial--section--card {
-  display: flex;
-  padding: 42.6px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 42.6px;
-  flex: 1 0 0;
-  border-radius: 8px;
-  border: 1.33px solid #006b6a;
-}
-.testimonial--section--card--reviews {
-  display: flex;
-  align-items: flex-start;
-  gap: 5.33px;
-}
-.testimonial--section--card--author--detail {
-  display: flex;
-  align-items: center;
-  gap: 21.3px;
-}
-.testimonial--author--name {
-  font-weight: 600;
-  color: var(--heading-color);
-}
-.testimonial--author--designation {
-  color: var(--darkblue);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 150%;
-}
-/* Testimonial Ends */
+
 .contact--section {
   display: flex;
   padding: 150px 85px;
