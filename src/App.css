@@ -415,8 +415,20 @@ h2 {
   align-self: stretch;
 }
 .portfolio--section--title {
-  color: var(--heading-color);
+  color: var(--darkblue);
 }
+
+.item--description--title{
+  color: var(--heading-color);
+  margin-top: 13px;
+  font-size: 18px;
+}
+
+.item--description--title span{
+  font-size: 16px;
+  font-weight: 100;
+}
+
 .portfolio--link {
   text-decoration: none;
   display: flex;

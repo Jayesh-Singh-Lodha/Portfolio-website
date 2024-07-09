@@ -5,28 +5,28 @@
       "src": "./img/product-chain-1.png",
       "title": "MERN Stack",
       "iconType":"faGears",
-      "description": "Adept at MongoDB, Express.js, React.js, and Node.js. Crafting seamless web experiences is my passion."
+      "description": "Leveraging MongoDB for database management, Express.js for backend application frameworks, React.js for building dynamic user interfaces, and Node.js for server-side JavaScript runtime."
     },
     {
       "id": "2",
       "src": "./img/tag-1.png",
-      "title": "Google Cloud",
-      "iconType":"faCloud",
-      "description": "From cloud infrastructure to cutting-edge services, I navigate the Google Cloud ecosystem with zeal."
+      "title": "Blockchain",
+      "iconType":"faLink",
+      "description": "Utilizing Solidity for smart contracts, JavaScript with React.js for frontend development, Hardhat for development tasks, and Ethers.js for blockchain interaction."
     },
     {
       "id": "3",
       "src": "./img/feather-pen-2.png",
       "title": "Database",
       "iconType":"faDatabase",
-      "description": "Skilled database developer proficient in SQL, MySQL, Firebase, and MongoDB."
+      "description": "Managing data using MySQL for relational database management, MongoDB for NoSQL database solutions, and Firebase for real-time database capabilities."
     },
     {
       "id": "4",
       "src": "./img/feather-pen-1.png",
       "title": "Programming",
       "iconType":"faCode",
-      "description": "Versatile programmer fluent in C, C++, Java, and JavaScript. Armed with a robust understanding of Data Structures and Algorithms (DSA)"
+      "description": "Proficient in C, C++, and JavaScript, I specialize in implementing Data Structures and Algorithms (DSA) with a strong foundation in Object-Oriented Programming (OOP)."
     }
   ],
   "portfolio": [
@@ -34,12 +34,19 @@
       "id": "1",
       "src": "./img/burger-img.png",
       "title": "Burger App",
-      "description": [ "Created a responsive Burger Builder app using ReactJS and Firebase."
-      ,"Features: Dynamic burger customization, user authentication, order history."
-      , "Tech: ReactJS, Firebase, responsive design."
-      , "Skills: Front-end, React components, Firebase authentication, responsive UI."
-      , "Impact: Strengthened front-end skills, real-world React application."
-      ,"Future: Planning to enhance user profiles and online ordering."],
+      "description": {
+            "Platform": "Burger ordering website",
+            "Technologies":[
+              "ReactJS for dynamic frontend development",
+              "Firebase for real-time database and user authentication"
+            ],
+            "Benefits":
+            [
+              "Enables dynamic burger customization",
+              "Provides secure user authentication",
+              "Manages order history efficiently"
+            ]
+      },
       "link": "View In Github",
       "projectLink":"https://github.com/Jayesh-Singh-Lodha/Burger-app"
     },
@@ -47,23 +54,45 @@
       "id": "2",
       "src": "./img/gym-img.png",
       "title": "Gym Website",
-      "description": [  "Description: Built a dynamic Gym website using Pug, CSS, Node.js, and MongoDB."
-      , "Tech: Pug, CSS, Node.js, MongoDB.", "Skills: Full-stack development, backend integration, database management."
-      , "Expansion: Future plans include integrating online class booking and payments."],
+      "description":{
+                "Platform": "Website for gym",
+                "Technologies":[
+                  "Pug for templating",
+                  "CSS for styling",
+                  "Node.js for backend functionality",
+                  "MongoDB for database management"
+                ],
+                "Benefits":
+                [
+                  "Streamlined frontend with Pug templating",
+                  "Customizable CSS for appealing design",
+                  "Robust backend with Node.js",
+                  "Efficient database management with MongoDB"
+                ]
+              },
       "link": "View In Github",
       "projectLink":"https://github.com/Jayesh-Singh-Lodha/Gym-website"
     },
     {
       "id": "3",
-      "src": "./img/placeholder-image-2.png",
-      "title": "Easy Rentn",
-      "description": [ "Created a responsive Burger Builder app using ReactJS and Firebase."
-      ,"Features: Dynamic burger customization, user authentication, order history."
-      , "Tech: ReactJS, Firebase, responsive design."
-      , "Skills: Front-end, React components, Firebase authentication, responsive UI."
-      , "Impact: Strengthened front-end skills, real-world React application."
-      ,"Future: Planning to enhance user profiles and online ordering."],
-      "link": "View In Github"
+      "src": "./img/millow-img.png",
+      "title": "Millow",
+      "description": {
+            "Platform": "Real estate buying and selling",
+            "Technologies":[
+            "Solidity",
+            "Javascript",
+            "Hardhat",
+            "Ethers.js",
+            "React.js"],
+            "Benefits":
+            [
+            "Secure and transparent transactions",
+            "User-friendly interface",
+            "Blockchain technology for reliability"]              
+       },
+       "link": "View In Github",
+      "projectLink":"https://github.com/Jayesh-Singh-Lodha/millow"
     }
   ],
   "testimonial": [

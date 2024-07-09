@@ -41,9 +41,22 @@ export default function MyPortfolio() {
             </div>
             <div className="portfolio--section--card--content">
               <div>
-                <h3 className="portfolio--section--title">{item.title}</h3>
+                <h3 className="portfolio--section--title">{item.title}:</h3>
+
+                <h3 className="item--description--title">Platform:
+                  <span> {item.description.Platform}</span>
+                </h3>
+
+                <h3 className="item--description--title">Technologies Used:</h3>
                 <ul className="text-md">
-                  {item?.description?.map((line) => {
+                  {item?.description?.Technologies?.map((line) => {
+                    return <li>{line}</li>;
+                  })}
+                </ul>
+
+                <h3 className="item--description--title">Benefits:</h3>
+                <ul className="text-md">
+                  {item?.description?.Benefits?.map((line) => {
                     return <li>{line}</li>;
                   })}
                 </ul>

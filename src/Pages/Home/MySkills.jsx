@@ -1,6 +1,6 @@
 import data from "../../data/index.json";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGears ,faCloud, faDatabase, faCode} from '@fortawesome/free-solid-svg-icons'
+import { faGears ,faLink, faDatabase, faCode} from '@fortawesome/free-solid-svg-icons'
 
 export default function MySkills() {
 
@@ -8,8 +8,8 @@ export default function MySkills() {
       switch(icontype){
           case 'faGears':
             return  <FontAwesomeIcon icon={faGears} className="skills--section--icon"/>
-          case 'faCloud':
-            return  <FontAwesomeIcon icon={faCloud} className="skills--section--icon"/>
+          case 'faLink':
+            return  <FontAwesomeIcon icon={faLink} className="skills--section--icon"/>
           case 'faDatabase':
             return  <FontAwesomeIcon icon={faDatabase} className="skills--section--icon"/>
           case 'faCode':
