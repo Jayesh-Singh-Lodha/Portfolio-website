@@ -47,8 +47,8 @@
               "Manages order history efficiently"
             ]
       },
-      "link": "View In Github",
-      "projectLink":"https://github.com/Jayesh-Singh-Lodha/Burger-app"
+      "gitHubLink": "https://github.com/Jayesh-Singh-Lodha/Burger-app",
+      "websiteLink":"https://burger-app-dusky.vercel.app/"
     },
     {
       "id": "2",
@@ -70,8 +70,8 @@
                   "Efficient database management with MongoDB"
                 ]
               },
-      "link": "View In Github",
-      "projectLink":"https://github.com/Jayesh-Singh-Lodha/Gym-website"
+      "gitHubLink": "https://github.com/Jayesh-Singh-Lodha/Gym-website",
+      "websiteLink":"https://gym-website-beta-wheat.vercel.app/"
     },
     {
       "id": "3",
@@ -91,8 +91,8 @@
             "User-friendly interface",
             "Blockchain technology for reliability"]              
        },
-       "link": "View In Github",
-      "projectLink":"https://github.com/Jayesh-Singh-Lodha/millow"
+       "gitHubLink": "https://github.com/Jayesh-Singh-Lodha/millow",
+      "websiteLink":"https://github.com/Jayesh-Singh-Lodha/millow"
     }
   ],
   "testimonial": [

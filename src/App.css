@@ -465,6 +465,14 @@ h2 {
 .portfolio--section--card:hover path {
   stroke: #006b6a;
 }
+
+.portfolio--section--links {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+}
+
 /* Portfolio Ends */
 
 
