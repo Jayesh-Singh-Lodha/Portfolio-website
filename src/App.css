@@ -249,7 +249,7 @@ h2 {
   display: flex;
 }
 .hero--section--img > img {
-  height: 500px;
+  height: 400px;
 }
 /* Hero Section Style Ends */
 
@@ -262,6 +262,14 @@ h2 {
   align-items: flex-start;
   gap: 106.667px;
 }
+
+@media (max-width: 600px) {
+  .skills--section {
+    padding: 56px 20px; /* Adjust padding for small screens */
+    gap: 40px; /* Adjust gap for small screens */
+  }
+}
+
 .skills--section--heading {
   color: var(--heading-color);
   font-size: 64px;
@@ -346,6 +354,14 @@ h2 {
   gap: 114.6px;
   grid-template-columns: repeat(2, 1fr);
 }
+
+@media (max-width: 600px) {
+  .about--section {
+    padding: 56px 20px; /* Adjust padding for small screens */
+    gap: 40px; /* Adjust gap for small screens */
+  }
+}
+
 .about--section--img > img {
   width: 100%;
   height: 100%;
@@ -364,6 +380,15 @@ h2 {
   align-items: flex-start;
   gap: 80px;
 }
+
+@media (max-width: 600px) {
+  .portfolio--section {
+    padding: 56px 20px; /* Adjust padding for small screens */
+    gap: 40px; /* Adjust gap for small screens */
+  }
+}
+
+
 .portfolio--container-box {
   display: flex;
   justify-content: space-between;

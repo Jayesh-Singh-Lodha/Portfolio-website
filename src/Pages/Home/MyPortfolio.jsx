@@ -49,15 +49,15 @@ export default function MyPortfolio() {
 
                 <h3 className="item--description--title">Technologies Used:</h3>
                 <ul className="text-md">
-                  {item?.description?.Technologies?.map((line) => {
-                    return <li>{line}</li>;
+                  {item?.description?.Technologies?.map((line,index) => {
+                    return <li id={index}>{line}</li>;
                   })}
                 </ul>
 
                 <h3 className="item--description--title">Benefits:</h3>
                 <ul className="text-md">
                   {item?.description?.Benefits?.map((line) => {
-                    return <li>{line}</li>;
+                    return <li id={index}>{line}</li>;
                   })}
                 </ul>
               </div>
