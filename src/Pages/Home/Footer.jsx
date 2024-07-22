@@ -128,7 +128,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/in/jayesh-lodha-189405244/"
+                href="http://www.linkedin.com/in/jayesh-singh-lodha"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
