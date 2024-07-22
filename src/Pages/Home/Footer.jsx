@@ -5,11 +5,11 @@ import { faUserTie } from "@fortawesome/free-solid-svg-icons";
 
 function Footer() {
   return (
-    <footer className="footer--container">
+    <footer className="footer--container" id="Footer">
       <div className="footer--link--container">
         <div className="logo">
-          <FontAwesomeIcon icon={faUserTie} className="logo-icon" />
-          <h3>MyPortolio</h3>
+          <img className="logo-icon" src="./logo.png" alt="" />
+          <h3>Jayesh Portfolio</h3>
         </div>
         <div className="footer--items">
           <ul>
