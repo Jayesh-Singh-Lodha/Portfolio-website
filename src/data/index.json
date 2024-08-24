@@ -33,7 +33,7 @@
     {
       "id": "1",
       "src": "./img/burger-img.png",
-      "title": "Burger App",
+      "title": "Burger Builder",
       "description": {
             "Platform": "Burger ordering website",
             "Technologies":[
@@ -52,47 +52,44 @@
     },
     {
       "id": "2",
+      "src": "./img/krypt-img.jpg",
+      "title": "Krypt",
+      "description": {
+            "Platform": "Web 3.0 application that allows users to send transactions through the blockchain",
+            "Technologies":[
+              "Frontend: React.js, Tailwind CSS",
+              "Blockchain: Solidity",
+              "Ethereum Development Framework: Hardhat"],
+            "Benefits":
+            [
+              "Send and receive Ethereum transactions using MetaMask",
+              "Attach personalized messages and GIFs with each transaction",
+              "View past transactions in real-time on the blockchain"
+            ]              
+       },
+       "gitHubLink": "https://github.com/Jayesh-Singh-Lodha/krypt",
+      "websiteLink":"https://krypt-wine.vercel.app/"
+    },
+    {
+      "id": "3",
       "src": "./img/gym-img.png",
       "title": "Gym Website",
       "description":{
                 "Platform": "Website for gym",
                 "Technologies":[
-                  "Pug for templating",
-                  "CSS for styling",
+                  "Pug for templating, CSS for styling",
                   "Node.js for backend functionality",
                   "MongoDB for database management"
                 ],
                 "Benefits":
                 [
                   "Streamlined frontend with Pug templating",
-                  "Customizable CSS for appealing design",
                   "Robust backend with Node.js",
                   "Efficient database management with MongoDB"
                 ]
               },
       "gitHubLink": "https://github.com/Jayesh-Singh-Lodha/Gym-website",
       "websiteLink":"https://gym-website-beta-wheat.vercel.app/"
-    },
-    {
-      "id": "3",
-      "src": "./img/millow-img.png",
-      "title": "Millow",
-      "description": {
-            "Platform": "Real estate buying and selling",
-            "Technologies":[
-            "Solidity",
-            "Javascript",
-            "Hardhat",
-            "Ethers.js",
-            "React.js"],
-            "Benefits":
-            [
-            "Secure and transparent transactions",
-            "User-friendly interface",
-            "Blockchain technology for reliability"]              
-       },
-       "gitHubLink": "https://github.com/Jayesh-Singh-Lodha/millow",
-      "websiteLink":"https://github.com/Jayesh-Singh-Lodha/millow"
     }
   ],
   "testimonial": [
